@@ -28,6 +28,7 @@ input {
 }
 
 .slider-controls {
+    align-self: flex-start;
     display: flex;
     flex-direction: row;
     width: 30%;
@@ -99,6 +100,10 @@ input {
     background-color: #333333;
 }
 
+.meme-radio5:checked ~ .bottom-part > .slider-controls > .memes-5 > span > span{
+    background-color: #333333;
+}
+
 .memes-wrapper {
     overflow: hidden;
     width: 100%;
@@ -132,7 +137,7 @@ input {
     align-items: flex-start;
     justify-content: flex-start;
     align-content: flex-start;
-    transition: width 1s ease;
+    transition: width 0.6s ease;
 }
 
 
@@ -152,6 +157,10 @@ input {
     width: 100%;
 }
 
+.meme-radio5:checked ~ .bottom-part > .meme-text-wrapper > .slider-text-container > .meme-text-5{
+    width: 100%;
+}
+
 .meme {
     overflow: hidden;
     height: 100%;
@@ -164,7 +173,7 @@ input {
     align-items: center;
     justify-content: center;
     align-content: center;
-    transition: all 1s ease;
+    transition: all 0.6s ease;
 }
 
 .meme-radio1:checked ~ .memes-wrapper > .memes-container > .meme-1{
@@ -185,6 +194,14 @@ input {
 .meme-radio4:checked ~ .memes-wrapper > .memes-container > .meme-4,
 .meme-radio4:checked ~ .memes-wrapper > .memes-container > .meme-3, 
 .meme-radio4:checked ~ .memes-wrapper > .memes-container > .meme-2{
+    width: 100%;
+    margin-left: -100%;
+}
+
+.meme-radio5:checked ~ .memes-wrapper > .memes-container > .meme-5,
+.meme-radio5:checked ~ .memes-wrapper > .memes-container > .meme-4,
+.meme-radio5:checked ~ .memes-wrapper > .memes-container > .meme-3, 
+.meme-radio5:checked ~ .memes-wrapper > .memes-container > .meme-2{
     width: 100%;
     margin-left: -100%;
 }
