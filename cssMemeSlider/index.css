@@ -67,7 +67,6 @@ input {
 .inside-label {
     width: 72%;
     height: 72%;
-    box-sizing: border-box;
     border-radius: 50%;
     background-color: #fcf7eb;
     display: flex;
