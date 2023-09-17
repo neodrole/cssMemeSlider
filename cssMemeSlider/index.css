@@ -1,13 +1,18 @@
 body {
     margin: 0;
 }
-
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcf7eb;
+}
 input {
     display: none;
 }
 
 .main {
-    background-color: rgb(49, 45, 45);
+    border-radius: 3%;
+    background-color: #e8dec7;
     width: 36vw;
     margin: auto;
     margin-top: 10vh;
@@ -31,19 +36,33 @@ input {
     justify-content: flex-end;
 }
 
+/**
+#fcf7eb
+#333333
+#e8dec7
+**/
+
 .label-outside {
     box-sizing: border-box;
     width: 1vw;
     height: 1vw;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: #fcf7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0.05rem solid;
+    border-color: #333333;
 }
 
 .label-outside:hover {
-    background-color: bisque;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.label-outside:active {
+    background-color: white;
+    cursor: pointer;
 }
 
 span {
@@ -51,7 +70,22 @@ span {
     width: 75%;
     height: 75%;
     border-radius: 50%;
-    background-color: white;
+}
+
+.meme-radio1:checked ~ .bottom-part > .slider-controls > .memes-1 > span{
+    background-color: #333333;
+}
+
+.meme-radio2:checked ~ .bottom-part > .slider-controls > .memes-2 > span{
+    background-color: #333333;
+}
+
+.meme-radio3:checked ~ .bottom-part > .slider-controls > .memes-3 > span{
+    background-color: #333333;
+}
+
+.meme-radio4:checked ~ .bottom-part > .slider-controls > .memes-4 > span{
+    background-color: #333333;
 }
 
 .memes-wrapper {
@@ -67,7 +101,8 @@ span {
 .meme-text-wrapper {
     overflow: hidden;
     width: 60%;
-    color: #FFF;
+    color: #333333;
+    font-size: 1.5rem;
 }
 
 .slider-text-container {
