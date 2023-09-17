@@ -214,7 +214,7 @@ img {
 }
 
 
-@media screen and (min-width: 500px) and (max-width: 699px) {
+@media screen and (min-width: 320px) and (max-width: 699px) {
     .bottom-part {
         flex-direction: column;
     }
