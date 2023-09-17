@@ -65,8 +65,8 @@ input {
 }
 
 .inside-label {
-    width: 75%;
-    height: 75%;
+    width: 72%;
+    height: 72%;
     box-sizing: border-box;
     border-radius: 50%;
     background-color: #fcf7eb;
@@ -79,8 +79,8 @@ input {
 
 .inside-label > span {
     display: block;
-    width: 75%;
-    height: 75%;
+    width: 72%;
+    height: 72%;
     border-radius: 50%;
 }
 
@@ -222,6 +222,7 @@ img {
     .main {
         width: 85vw;
         padding: 3vh 3vw 3vh 3vw;
+        height: 65vh;
     }
 
     .label-outside {
@@ -249,8 +250,8 @@ img {
     }
 
     .label-outside {
-        width: 4vw;
-        height: 4vw;
+        width: 3vw;
+        height: 3vw;
     }
 
 }
@@ -275,8 +276,8 @@ img {
     }
 
     .label-outside {
-        width: 3vw;
-        height: 3vw;
+        width: 1.5vw;
+        height: 1.5vw;
     }
 
 }
